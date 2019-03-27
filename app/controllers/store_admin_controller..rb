@@ -6,7 +6,7 @@ class StoreAdminController < ApplicationController
 	end
 	
 	def invoice
-		render layout: false
+		render :layout => false
 	end
 	
 	def orders
